@@ -1,10 +1,35 @@
-button{
-    border-radius: 5px;
-    background-color: aqua;
-    cursor: pointer;
-    
+
+*{
+    margin: 0;
+    padding: 0;
 }
-p {
-    color: blue;
-    font-size: 32px;
+
+
+
+h1{
+    margin: 31px 64px;
+    font-size: 56px;
+}
+#itemInput{
+    margin-left: 30px;
+    height: 20px;
+    border-radius: 5px;
+}
+#addButton{
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 80px;
+    color: rgb(25, 0, 255);
+}
+#removeButton{
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 80px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-left: 222px;
+}
+#myList li{
+    margin-left: 50px;
 }
