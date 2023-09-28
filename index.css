@@ -1,0 +1,10 @@
+button{
+    border-radius: 5px;
+    background-color: aqua;
+    cursor: pointer;
+    
+}
+p {
+    color: blue;
+    font-size: 32px;
+}

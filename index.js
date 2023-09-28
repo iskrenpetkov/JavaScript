@@ -1,26 +1,6 @@
-function demo(input) {
-
-   
-     for (let i=1; i<=e;i++){
-        let e=''
-        
-       for(let f=1; f<=10; f++) 
-
-
-       console.log(i);
-     }
-     
+let p = document.getElementById("Hello");
+function change() {
+p.style.color = 'red'
+    p.textContent = 'Goodbye Java Script';
+    
 }
-demo()
-function generateNumberPyramid(rows) {
-    let currentNumber = 1;
-    for (let i = 1; i <= rows; i++) {
-        let row = '';
-        for (let j = 1; j <= i; j++) {
-            row += currentNumber + ' ';
-            currentNumber++;
-        }
-        console.log(row);
-    }
-}
-generateNumberPyramid([1])
